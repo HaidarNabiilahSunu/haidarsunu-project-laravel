@@ -1,263 +1,146 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/globals.css" />
-    <link rel="stylesheet" href="css/styleguide.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  
-  <body>
-    <div class="landing-page">
-      <div class="div">
-        <div class="group-g-footer">
-          <div class="footer">
-            <div class="navigation-and">
-              <div class="frame-menu">
-                <div class="navigation">
-                  <div class="logo">
-                    <p class="pet-zen">
-                      <span class="text-wrapper">Pet</span>
-                      <span class="span">&nbsp;</span>
-                      <span class="text-wrapper-2">Zen</span>
-                    </p>
-                  </div>
-                  <div class="menu">
-                    <div class="text-wrapper-3">Home</div>
-                    <div class="text-wrapper-4">About</div>
-                    <div class="text-wrapper-5">Services</div>
-                    <div class="text-wrapper-6">Our App</div>
-                    <div class="home"></div>
-                  </div>
-                  <img class="social-icons" src="img/social-icons.png" />
-                </div>
-              </div>
-              <div class="frame-contact-us">
-                <div class="contact-us">
-                  <div class="heading">
-                    <div class="label"><div class="text-wrapper-7">Entre em contato:</div></div>
-                  </div>
-                  <div class="info">
-                    <div class="text-wrapper-7">Email : email@gmail.com</div>
-                    <p class="text-wrapper-8">Phone : 73 9 9999-9999</p>
-                    <div class="text-wrapper-8">Address :</div>
-                  </div>
-                </div>
-                <div class="subscription">
-                  <input class="input" placeholder="Email" type="email" />
-                  <div class="button"><p class="text">Sign up for the Newsletter</p></div>
-                </div>
-              </div>
-            </div>
-            <div class="line-and-text">
-              <img class="line" src="img/line-17.svg" />
-              <div class="text-2">
-                <p class="p">© 2023 Danielle Fragas. All rights reserved.</p>
-                <div class="text-wrapper-9">Privacy Policy</div>
-                <div class="text-wrapper-9">Cookie Policy</div>
-              </div>
-            </div>
-          </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetZen - Pet Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-white shadow-md py-4">
+    <nav class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-gray-800">Pet Zen</a>
+      <div class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">Services</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">Our App</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">Blog</a>
+      </div>
+      <a href="#" class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Access</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto my-8">
+    <h1 class="text-4xl font-bold text-gray-800 mb-4">The Best Care Support for Your Best Friend</h1>
+    <p class="text-gray-600 mb-8">Here, you will find answers to all your questions, from choosing the best food to essential tips to ensure the well-being of your furry companion.</p>
+    <a href="#" class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Access</a>
+  </main>
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Learn essential tips to give your pet the comfort that your pet deserves ... !</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/training.svg" alt="Training" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Training</h3>
+          <p class="text-gray-600">Correct behaviors, educate, have fun, and strengthen the relationship with your pet.</p>
         </div>
-        <div class="group-f-newsletter">
-          <div class="newsletter">
-            <div class="news">
-              <div class="group-text">
-                <div class="overlap">
-                  <div class="input-email">
-                    <div class="placeholder">Enter your email ...</div>
-                    <div class="overlap-group"><img class="icon" src="img/icon.svg" /></div>
-                  </div>
-                  <div class="text-3">
-                    <p class="don-t-miss-to-our">Don&#39;t miss to our <br />Updates ... !</p>
-                    <p class="text-wrapper-10">Sign up to receive news, new tools, discounts, updates ...</p>
-                    <div class="text-4">
-                      <div class="element">
-                        <div class="div-wrapper"><div class="text-wrapper-11">03</div></div>
-                        <p class="text-wrapper-12">Read articles on relevant topics.</p>
-                      </div>
-                      <div class="element-2">
-                        <div class="div-wrapper"><div class="text-wrapper-11">02</div></div>
-                        <div class="text-wrapper-12">Get discount coupons.</div>
-                      </div>
-                      <div class="element-3">
-                        <div class="div-wrapper"><div class="text-wrapper-11">01</div></div>
-                        <div class="text-wrapper-12">Get first-hand updates.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img class="illustration" src="img/illustration.png" />
-          </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/pet-food.svg" alt="Pet Food" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Pet Food</h3>
+          <p class="text-gray-600">Learn about balanced diets, learn about homemade diets, choose the best food, and more.</p>
         </div>
-        <div class="group-e-feedback">
-          <div class="group-comments">
-            <div class="title">
-              <p class="find-out-what-pet">
-                <span class="text-wrapper-13">Find out what </span>
-                <span class="text-wrapper-14">Pet</span>
-                <span class="text-wrapper-15">&nbsp;</span>
-                <span class="text-wrapper-16">Zen </span>
-                <span class="text-wrapper-13">users are thinking about the App ... !</span>
-              </p>
-            </div>
-            <img class="cards" src="img/cards.png" />
-          </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/adoption.svg" alt="Adoption" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Adoption</h3>
+          <p class="text-gray-600">Discover charming names, tips, what to do, and everything you need to know to adopt a pet.</p>
         </div>
-        <div class="group-d-app">
-          <div class="group-app">
-            <div class="app">
-              <div class="text-5">
-                <div class="overlap-group-2">
-                  <img class="button-app" src="img/button-app.png" />
-                  <div class="textos-wrapper"><img class="textos" src="img/textos.png" /></div>
-                </div>
-                <div class="DOWNLOAD-OUR-APP-wrapper"><p class="DOWNLOAD-OUR-APP">Download Our App ... !</p></div>
-              </div>
-              <img class="img" src="img/app.png" />
-            </div>
-          </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/cheers.svg" alt="Cheers" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Cheers</h3>
+          <p class="text-gray-600">Learn everything you need to know about your pet's health and protect your pet from diseases.</p>
         </div>
-        <div class="overlap-2">
-          <div class="group-c-additional">
-            <div class="additional">
-              <div class="group-additional">
-                <div class="text-6">
-                  <p class="text-wrapper-17">You and your pet are even more connected ... !</p>
-                  <p class="our-app-simplifies">
-                    Our app simplifies the guardian&#39;s life, recording the pet&#39;s health history, managing monthly
-                    expenses, and connecting you to a lively community of pet parents.
-                  </p>
-                  <button class="label-wrapper"><div class="text-wrapper-18">Access Now ... !</div></button>
-                </div>
-              </div>
-              <img class="group-ilustration" src="img/group-ilustration.png" />
-            </div>
-          </div>
-          <div class="group-b-services">
-            <div class="services">
-              <div class="title-2">
-                <p class="text-7">Learn essential tips to give your pet the comfort that your pet deserves ... !</p>
-              </div>
-              <div class="cards-services">
-                <div class="div-2">
-                  <div class="member">
-                    <img class="icon-2" src="img/icon-1.png" />
-                    <div class="text-wrapper-19">Training</div>
-                  </div>
-                  <div class="frame">
-                    <p class="text-wrapper-20">
-                      Correct behaviors, educate, have fun, and strengthen the relationship with your pet.
-                    </p>
-                  </div>
-                </div>
-                <div class="div-2">
-                  <div class="member">
-                    <div class="icon-2">
-                      <div class="overlap-group-3">
-                        <div class="rectangle"></div>
-                        <img class="img-2" src="img/pet-food-1.png" />
-                      </div>
-                    </div>
-                    <div class="text-wrapper-21">Pet Food</div>
-                  </div>
-                  <div class="frame">
-                    <p class="text-wrapper-20">
-                      Learn about balanced diets, learn about homemade diets, choose the best food, and more.
-                    </p>
-                  </div>
-                </div>
-                <div class="div-3">
-                  <div class="member">
-                    <div class="icon-2">
-                      <div class="overlap-group-4">
-                        <div class="rectangle"></div>
-                        <img class="animal" src="img/animal-1-1.png" />
-                      </div>
-                    </div>
-                    <div class="text-wrapper-19">Adoption</div>
-                  </div>
-                  <div class="frame-2">
-                    <p class="text-wrapper-22">
-                      Discover charming names, tips, what to do, and everything you need to know to adopt a pet.
-                    </p>
-                  </div>
-                </div>
-                <div class="div-3">
-                  <div class="member">
-                    <div class="icon-2">
-                      <div class="overlap-group-3">
-                        <div class="rectangle"></div>
-                        <img class="img-2" src="img/veterinary-1.png" />
-                      </div>
-                    </div>
-                    <div class="text-wrapper-19">Cheers</div>
-                  </div>
-                  <div class="frame">
-                    <p class="text-wrapper-20">
-                      Learn everything you need to know about your pet&#39;s health and protect your pet from diseases.
-                    </p>
-                  </div>
-                </div>
-                <div class="div-2">
-                  <div class="member">
-                    <div class="icon-2">
-                      <div class="overlap-group-3">
-                        <div class="rectangle"></div>
-                        <img class="img-2" src="img/treats-1.png" />
-                      </div>
-                    </div>
-                    <div class="text-wrapper-19">Care</div>
-                  </div>
-                  <div class="frame">
-                    <p class="text-wrapper-20">Understand estrus, pregnancy, dental hygiene, ear care and more.</p>
-                  </div>
-                </div>
-                <div class="div-2">
-                  <div class="member">
-                    <div class="icon-2">
-                      <div class="overlap-group-3">
-                        <div class="rectangle"></div>
-                        <img class="img-2" src="img/dog-1.png" />
-                      </div>
-                    </div>
-                    <div class="text-wrapper-19">Curiosities</div>
-                  </div>
-                  <div class="frame">
-                    <p class="text-wrapper-20">
-                      Learn tips, discover endangered species, learn about various races, and more.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="group-a-home">
-            <div class="home-2">
-              <div class="navigation-bar">
-                <div class="pet-zen-wrapper">
-                  <p class="pet-zen-2">
-                    <span class="text-wrapper">Pet</span>
-                    <span class="span">&nbsp;</span>
-                    <span class="text-wrapper-2">Zen</span>
-                  </p>
-                </div>
-                <div class="menu-2">
-                  <div class="text-wrapper-23">Home</div>
-                  <div class="text-wrapper-23">About</div>
-                  <div class="text-wrapper-23">Services</div>
-                  <div class="text-wrapper-23">Our App</div>
-                  <div class="text-wrapper-23">Blog</div>
-                </div>
-                <button class="acessar-wrapper"><div class="text-wrapper-18">Access</div></button>
-              </div>
-              <img class="home-3" src="img/home.png" />
-            </div>
-          </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/care.svg" alt="Care" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Care</h3>
+          <p class="text-gray-600">Understand estrus, pregnancy, dental hygiene, ear care and more.</p>
+        </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/curiosities.svg" alt="Curiosities" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray -800 mb-2">Curiosities</h3>
+          <p class="text-gray-600">Learn tips, discover endangered species, learn about various races, and more.</p>
         </div>
       </div>
     </div>
-  </body>
+  </section>
+
+  <section class="bg-white py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">You and your pet are even more connected</h2>
+      <p class="text-gray-600 mb-4">Our app simplifies the guardian's life, recording the pets' health history, managing monthly expenses, and connecting you to a loving community of pet parents.</p>
+      <a href="#" class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Access Now ... !</a>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Download Our App ... !</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/smart-alerts.svg" alt="Smart Alerts" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Smart Alerts and Reminders</h3>
+          <p class="text-gray-600">Get notifications for appointments, medications, vet visits, and other needs, ensuring that you never miss essential care for your pet.</p>
+        </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/friendly-interface.svg" alt="Friendly Interface" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Friendly Interface for Everyone</h3>
+          <p class="text-gray-600">Our app is designed to be intuitive and accessible, making it easy for everyone, regardless of digital experience, to use and navigate.</p>
+        </div>
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <img src="assets/intuitive-design.svg" alt="Intuitive Design" class="h-8 w-8 mb-2">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Intuitive and Attractive Design</h3>
+          <p class="text-gray-600">Our thoughtfully designed app provides a visually appealing and user-friendly experience, making it a pleasure to use.</p>
+        </div>
+      </div>
+      <div class="flex justify-center mt-8">
+        <a href="#" class="mr-4">
+          <img src="assets/download-android.svg" alt="Download on Android" class="h-12">
+        </a>
+        <a href="#">
+          <img src="assets/download-ios.svg" alt="Download on iOS" class="h-12">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Find out what Pet Zen users are thinking about the App ... !</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-gray-100 shadow-md p-4 rounded-md">
+          <div class="flex items-center mb-2">
+            <img src="assets/carlos-santana.jpg" alt="Carlos Santana" class="w-8 h-8 rounded-full mr-2">
+            <span class="text-gray-800 font-bold">Carlos Santana</span>
+          </div>
+          <p class="text-gray-600">The app is amazing! It has greatly simplified my furry friend's health, monitoring appointments, and more. Highly recommend it to all animal lovers!</p>
+        </div>
+        <div class="bg-gray-100 shadow-md p-4 rounded-md">
+          <div class="flex items-center mb-2">
+            <img src="assets/giovanna-lima.jpg" alt="Giovanna Lima" class="w-8 h-8 rounded-full mr-2">
+            <span class="text-gray-800 font-bold">Giovanna Lima</span>
+          </div>
+          <p class="text-gray-600">I have been using the app for a while and it has made a positive change in my pet's behavior. The training tips and resources are fantastic.</p>
+        </div>
+        <div class="bg-gray-100 shadow-md p-4 rounded-md">
+          <div class="flex items-center mb-2">
+            <img src="assets/regina-santos.jpg" alt="Regina Santos" class="w-8 h-8 rounded-full mr-2">
+            <span class="text-gray-800 font-bold">Regina Santos</span>
+          </div>
+          <p class="text-gray-600">The app has not only simplify the care of my pets, but also connected me to a wonderful community of animal lovers. I can't recommend it enough!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2023 Danielle Peters. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+        <a href="#" class="hover:text-gray-400">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
