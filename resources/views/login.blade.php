@@ -10,7 +10,7 @@
   <div class="flex justify-center items-center h-screen">
     <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
       <h1 class="text-3xl font-bold text-gray-800 mb-6">Welcome Back ... !</h1>
-      <form class="space-y-4">
+      <form class="space-y-4" id="loginFrom" method="post">
         <div>
           <label for="username" class="block text-gray-700 font-bold mb-2">Username</label>
           <input type="text" id="username" name="username" class="border-gray-300 rounded-md py-2 px-3 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Enter your username">
