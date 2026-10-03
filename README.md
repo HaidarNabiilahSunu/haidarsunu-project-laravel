@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🚀 About The Project
+
+**haidarsunu-project-laravel** adalah proyek aplikasi web dinamis yang dikembangkan oleh **Haidar Nabiilah Sunu** menggunakan framework **Laravel (PHP)**. 
+
+Proyek ini dibangun menggunakan pendekatan **Model-View-Controller (MVC)** yang terstruktur, efisien, dan aman. Aplikasi ini mengintegrasikan pengolahan basis data (*database management*), sistem autentikasi, serta komponen antarmuka pengguna (*user interface*) yang terstruktur.
+
+### ✨ Fitur Utama
+* **Autentikasi & Otorisasi:** Sistem Login/Register pengguna yang aman menggunakan fitur bawaan Laravel.
+* **Manajemen Data (CRUD):** Kemampuan untuk membuat (*Create*), membaca (*Read*), memperbarui (*Update*), dan menghapus (*Delete*) entitas data utama.
+* **ORM & Database Migration:** Pengelolaan struktur basis data dan relasi tabel menggunakan Eloquent ORM & Migration.
+* **Templating Engine (Blade):** Antarmuka web dinamis yang rapi, responsif, dan mudah dipelihara.
+* **Keamanan Aplikasi:** Perlindungan bawaan terhadap CSRF, SQL Injection, dan XSS.
+
+### 🛠️ Teknologi & Tooling
+* **Framework:** Laravel (PHP)
+* **Templating:** Blade Template Engine
+* **Database:** MySQL / MariaDB
+* **Tools:** Composer, Git, Artisan CLI
